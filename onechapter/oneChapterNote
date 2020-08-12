@@ -1,0 +1,20 @@
+一章
+
+一、入门
+1、Unix：cc hello.c
+2、Linux中用gcc:gcc -o hello.exe hello.c
+3、\:转义字符,无效的转义将输出本身（example：\c output c）
+
+二、变量与算术表达式
+1、注释的两种使用
+//
+/*
+*/
+2、%t用于输出对齐
+3、int（2or4）、float（4）、char(1)、double(8)、short(2)、long(8)等基本类型
+4、整形计算中舍弃值问题
+5、printf函数对齐和小数点后保留
+（exmaple：printf("%d3.2  %d6.2\n", FTemp, CTemp);
+//FTemp占3个数字宽，小数点后保留两位，CTemp占六个数字宽，小数点后保留两位
+FTemp在所占的3个数字宽中右对齐，CTemp同理
+
